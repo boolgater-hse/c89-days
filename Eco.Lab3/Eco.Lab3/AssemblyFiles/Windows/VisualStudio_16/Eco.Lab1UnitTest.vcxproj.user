@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DynamicRelease|Win32'">
+    <LocalDebuggerCommand>$(ProjectDir)..\..\..\BuildFiles\Windows\x86\$(Configuration)\$(TargetName)$(TargetExt)</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>PATH=%PATH%;$(ECO_FRAMEWORK)\Eco.List1\BuildFiles\Windows\x86\DynamicRelease\;$(ProjectDir)..\..\..\..\Eco.CalculatorA\BuildFiles\Windows\$(PlatformTarget)\$(Configuration)\;$(ProjectDir)..\..\..\..\Eco.CalculatorB\BuildFiles\Windows\$(PlatformTarget)\$(Configuration)\;$(ProjectDir)..\..\..\..\Eco.CalculatorD\BuildFiles\Windows\$(PlatformTarget)\$(Configuration)\;$(ProjectDir)..\..\..\..\Eco.CalculatorE\BuildFiles\Windows\$(PlatformTarget)\$(Configuration)\
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DynamicDebug|Win32'">
+    <LocalDebuggerCommand>$(ProjectDir)..\..\..\BuildFiles\Windows\x86\$(Configuration)\$(TargetName)$(TargetExt)</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>PATH=%PATH%;$(ECO_FRAMEWORK)\Eco.List1\BuildFiles\Windows\x86\DynamicRelease\;$(ProjectDir)..\..\..\..\Eco.CalculatorA\BuildFiles\Windows\$(PlatformTarget)\$(Configuration)\;$(ProjectDir)..\..\..\..\Eco.CalculatorB\BuildFiles\Windows\$(PlatformTarget)\$(Configuration)\;$(ProjectDir)..\..\..\..\Eco.CalculatorD\BuildFiles\Windows\$(PlatformTarget)\$(Configuration)\;$(ProjectDir)..\..\..\..\Eco.CalculatorE\BuildFiles\Windows\$(PlatformTarget)\$(Configuration)\
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+</Project>
